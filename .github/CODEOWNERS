@@ -1,0 +1,8 @@
+# About CODEOWNERS file:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# all files needs to be reviewed on pull request
+*
+
+# but who's managing automations?
+.github/
