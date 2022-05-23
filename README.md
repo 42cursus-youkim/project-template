@@ -16,6 +16,11 @@ korean versions have `ko-` prefix, remove them or others before using
 
 ## How to use
 
+### Labels
+
+1. [export labels](https://gist.github.com/MoOx/93c2853fee760f42d97f)
+2. [import labels](https://gist.github.com/Isaddo/7efebcb673a0957b9c6f07cd14826ea4)
+
 ### set up CODEOWNERS
 
 Add members to [CODEOWNERS](.github/CODEOWNERS)

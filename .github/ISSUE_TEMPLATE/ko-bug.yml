@@ -1,7 +1,7 @@
 name: 버그 보고
 description: 버그를 찾았는데 고칠 시간이 없을 때
-title: "[버그 🐛] "
-labels: ["버그 🐛"]
+title: "[Bug 🐛] "
+labels: ["Bug 🐛"]
 body:
   - type: dropdown
     id: error-type
