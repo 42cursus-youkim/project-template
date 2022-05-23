@@ -7,6 +7,7 @@ on:
     types: [opened, reopened, review_requested, closed]
 
 env:
+  project_id: 1
   triage: 🗃️ Triage
   todo: 💡 Todo
   in_progress: 🚧 In Progress
@@ -16,8 +17,6 @@ env:
   event_action: ${{ github.event.action }}
   node_issue: ${{ github.event.issue.node_id }}
   node_pr: ${{ github.event.pull_request.node_id }}
-
-  project_id: ${{ secrets.PROJECT_ID || 1 }}
 
 jobs:
   move-card:
