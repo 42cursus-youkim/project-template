@@ -18,8 +18,8 @@ korean versions have `ko-` prefix, remove them or others before using
 
 ### Labels
 
-1. [export labels](https://gist.github.com/MoOx/93c2853fee760f42d97f)
-2. [import labels](https://gist.github.com/Isaddo/7efebcb673a0957b9c6f07cd14826ea4)
+1. [export labels](https://gist.github.com/jamesperrin/c2bf6d32fbb8142682f6107e561b664d)
+2. [import labels](https://gist.github.com/jamesperrin/d811fadea2bd199ecf98195d96513afd)
 
 ### set up CODEOWNERS
 
