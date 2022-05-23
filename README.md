@@ -18,7 +18,8 @@ Add members to [CODEOWNERS](.github/CODEOWNERS)
 
 ### set up project board automation
 
-1. create following kanban board structure on project beta. (or change [script](.github/workflows/project_board.yml))
+1. create repository secret named `PERSONAL_ACCESS_TOKEN`, with [following permissions](https://github.com/marketplace/actions/project-beta-automations#gh-app-auth)
+2. create following kanban board structure on project beta. (or change [script](.github/workflows/project_board.yml))
 
 ```
 🗃️ Triage
@@ -27,4 +28,4 @@ Add members to [CODEOWNERS](.github/CODEOWNERS)
 ✅ Done
 ```
 
-2. create repository secret named `PROJECT_ID` and value to `<project_id>` of project board.
+3. create repository secret named `PROJECT_ID` and value to `<project_id>` of project board.
