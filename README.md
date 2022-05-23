@@ -2,6 +2,8 @@
 
 generic team project template so i don't have to copy-paste everything again
 
+korean versions have `ko-` prefix, remove them or others before using
+
 ## Features
 
 - [Clang-Format](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
