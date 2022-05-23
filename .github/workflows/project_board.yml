@@ -17,11 +17,13 @@ env:
   node_issue: ${{ github.event.issue.node_id }}
   node_pr: ${{ github.event.pull_request.node_id }}
 
+  project_id: ${{ secrets.PROJECT_ID || 1 }}
+
 jobs:
   move-card:
     runs-on: ubuntu-latest
     steps:
-      - name: get type of card
+      - name: figure type of card
         id: figure
         run: |
           case $event_name in
@@ -50,6 +52,6 @@ jobs:
         with:
           gh_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           organization: ${{ github.repository_owner }}
-          project_id: ${{ secrets.PROJECT_ID }}
+          project_id: ${{ env.project_idproject_id }}
           resource_node_id: ${{ steps.figure.outputs.node_id }}
-          status_value: ${{ steps.figure.outputs.movet  o }} # Target status
+          status_value: ${{ steps.figure.outputs.moveto }} # Target status
