@@ -1,5 +1,5 @@
-name: Bug report (Simple)
-description: Too small to write a proper issue
+name: 버그 보고 (간단하게)
+description: 제대로 된 이슈를 만들기엔 사소할때
 title: "[Bug 🐛] "
 labels: ["Bug 🐛"]
 body:
@@ -7,22 +7,22 @@ body:
     id: error-type
     attributes:
       label: Error type
-      description: the type of error that is persisting
+      description: 지금 생긴 버그의 종류
       options:
-        - Won't compile (compiler / makefile)
-        - Memory (leaks / dangling pointer / double free)
-        - Crash (Segmentation fault / Bus error / Abort)
-        - Logic (Faulty behavior / Wrong output)
-        - Other
+        - 컴파일 안 됨 (컴파일러 / 메이크파일)
+        - 메모리 (누수 / 댕글링 포인터 / 이중 해제)
+        - 터짐 (세그멘테이션 오륲 / 버스 에러 / 기타등등)
+        - 구현부 (잘못된 동작 / 잘못된 출력)
+        - 기타
     validations:
       required: true
 
   - type: dropdown
     id: status
     attributes:
-      label: Status
-      description: describe current status of error
+      label: 상태
+      description: 현재 버그의 상태
       options:
-        - Cause found
-        - Solution exists
+        - 원인 찾음
+        - 해결법도 찾음
       multiple: true
