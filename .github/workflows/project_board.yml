@@ -51,6 +51,6 @@ jobs:
         with:
           gh_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           organization: ${{ github.repository_owner }}
-          project_id: ${{ env.project_idproject_id }}
+          project_id: ${{ env.project_id }}
           resource_node_id: ${{ steps.figure.outputs.node_id }}
           status_value: ${{ steps.figure.outputs.moveto }} # Target status
