@@ -20,8 +20,11 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Summary
-      description: a brief summary of the bug
+      label: Which github actions runner are you using?
+
+      description: >
+        Please specify the operating system of your workflow's 
+        [jobs.<job_id>.runs-on](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 
   - type: textarea
     id: to-recreate
