@@ -22,6 +22,7 @@ body:
     id: implementation
     attributes:
       label: Implementation process
+      description: please [KISS](https://en.wikipedia.org/wiki/KISS_principle), [YAGNI](https://en.wikipedia.org/wiki/You_aren't_gonna_need_it), [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
   - type: textarea
     id: related-code
